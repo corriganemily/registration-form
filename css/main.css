@@ -1,5 +1,6 @@
 html {
   font-family: "Open Sans", sans-serif;
+  padding: .1rem .5rem;
 }
 
 .register {
@@ -9,4 +10,20 @@ html {
 .btn {
   color: #fff;
   background-color: #000;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad-right {
+    padding-right: .5em;
+  }
+
+  .pad-left {
+    padding-left: .5em;
+  }
+
 }
