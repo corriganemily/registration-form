@@ -4,17 +4,28 @@ html {
 }
 
 .register {
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 
 .btn {
-  color: #fff;
-  background-color: #000;
+  color: #f2f2f2;
+  padding: .15em;
+}
+
+.wrapper {
+  display: inline-block;
 }
 
 h1 {
-  border-bottom: 1px solid #000;
+  border-bottom: .5px solid #000;
+  margin-top: 3rem;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .btn {
+    padding-top: .5em;
+  }
 
 @media only screen and (min-width: 60em) {
 
