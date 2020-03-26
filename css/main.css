@@ -1,40 +1,35 @@
 html {
   font-family: "Open Sans", sans-serif;
-  padding: .1rem .5rem;
 }
 
-.register {
+body {
+  background-color: #f2f2f2;
+}
+
+section {
   background-color: #fff;
 }
 
-.btn {
-  color: #f2f2f2;
-  padding: .15em;
-}
-
-.wrapper {
-  display: inline-block;
-}
-
 h1 {
-  border-bottom: .5px solid #000;
-  margin-top: 3rem;
+  border-bottom: 1px solid #000;
 }
 
-@media only screen and (min-width: 38em) {
+.btn {
+  padding: .5rem .75rem;
+}
 
-  .btn {
-    padding-top: .5em;
-  }
+.move-right {
+  padding-top: 1rem;
+}
+
+.move-left {
+  padding-top: 1rem;
+}
 
 @media only screen and (min-width: 60em) {
 
-  .pad-right {
-    padding-right: .5em;
-  }
-
-  .pad-left {
-    padding-left: .5em;
+  div {
+    padding: .25rem;
   }
 
 }
